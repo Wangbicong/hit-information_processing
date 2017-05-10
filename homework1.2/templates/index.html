@@ -65,12 +65,14 @@
                             </thead>
                             <tbody>
                                 {% for data in forest.data %}
+                                    {% if loop.index <= 100 %}
                                     <tr>
                                         <th scope="row"> {{ loop.index }} </th>
                                     {% for element in data %}
                                         <td> {{ element }} </td>
                                     {% endfor %}
                                     </tr>
+                                    {% endif %}
                                 {% endfor %}
                             </tbody>
                         </table>
@@ -87,12 +89,14 @@
                             </thead>
                             <tbody>
                                 {% for data in crx.data %}
+                                    {% if loop.index <= 100 %}
                                     <tr>
                                         <th scope="row"> {{ loop.index }} </th>
                                     {% for element in data %}
                                         <td> {{ element }} </td>
                                     {% endfor %}
                                     </tr>
+                                    {% endif %}
                                 {% endfor %}
                             </tbody>
                         </table>
@@ -109,12 +113,14 @@
                             </thead>
                             <tbody>
                                 {% for data in iris.data %}
+                                    {% if loop.index <= 100 %}
                                     <tr>
                                         <th scope="row"> {{ loop.index }} </th>
                                     {% for element in data %}
                                         <td> {{ element }} </td>
                                     {% endfor %}
                                     </tr>
+                                    {% endif %}
                                 {% endfor %}
                             </tbody>
                         </table>
@@ -131,7 +137,7 @@
                             </thead>
                             <tbody>
                                 {% for data in texi.data %}
-                                    {% if loop.index <= 1000 %}
+                                    {% if loop.index <= 100 %}
                                     <tr>
                                         <th scope="row"> {{ loop.index }} </th>
                                     {% for element in data %}

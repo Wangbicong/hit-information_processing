@@ -8,3 +8,7 @@
 ## 作业1.2数据集读取平台
 
 ![homework1.2/doc/ui.png](homework1.2/doc/ui.png)
+
+## 作业2.1 通话时长盒图可视化
+
+![homework2.1/doc/ui.png](homework2.1/doc/ui.png)

@@ -12,3 +12,8 @@
 ## 作业2.1 通话时长盒图可视化
 
 ![homework2.1/doc/ui.png](homework2.1/doc/ui.png)
+
+## 作业2.1 绘制数据属性的统计图形
+
+![homework2.2/doc/ui.png](homework2.2/doc/ui.png)
+

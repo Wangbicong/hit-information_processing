@@ -21,3 +21,18 @@
 
 空
 
+## 作业3.1 感知机与最近中心分类器
+
+使用`sklearn`框架进行两个分类模型的训练与预测，使用`matplotlib`框架进行图形化绘制。
+
+![homework3.1/doc/ui.png](homework3.1/doc/ui.png)
+
+## 作业3.2 多层感知机分类器
+
+同上
+
+## 作业3.3 卷积神经网络
+
+使用`Tensorflow`框架进行Softmax回归和卷积神经网络的训练。
+
+

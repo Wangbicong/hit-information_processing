@@ -35,4 +35,6 @@
 
 使用`Tensorflow`框架进行Softmax回归和卷积神经网络的训练。
 
+## 作业4.2 实现A*搜索算法
 
+![homework4.2/doc/ui.png](homework4.2/doc/ui.png)
